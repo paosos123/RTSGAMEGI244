@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4917304797871263149}
   - component: {fileID: 6262565311112338121}
   - component: {fileID: 7629917022904674293}
+  - component: {fileID: 5138379633030919933}
   m_Layer: 0
   m_Name: Britain
   m_TagString: Untagged
@@ -66,3 +67,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   curUnit: {fileID: 0}
+--- !u!114 &5138379633030919933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138933292214468580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7907ffe98e3df814c86d8337efa83a18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
