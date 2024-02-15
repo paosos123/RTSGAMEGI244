@@ -108,10 +108,12 @@ public class UnitSelect : MonoBehaviour
     private void ShowUnit(Unit u)
     {
         InfoManager.instance.ShowAllInfo(u);
+        Debug.Log("Show Unit");
     }
     private void ShowBuilding(Building b)
     {
         InfoManager.instance.ShowAllInfo(b);
+        Debug.Log("Show Building");
     }
     private void BuildingSelect(RaycastHit hit)
     {
@@ -120,7 +122,7 @@ public class UnitSelect : MonoBehaviour
 
         if (GameManager.instance.MyFaction.IsMyBuilding(curBuilding))
         {
-            //Debug.Log("my building");
+            Debug.Log("my building");
             ShowBuilding(curBuilding);//Show building info
         }
     }

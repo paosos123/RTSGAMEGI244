@@ -11,6 +11,7 @@ public class InfoManager : MonoBehaviour
     public static InfoManager instance;
     [SerializeField] private Image unitPic, hpIcon, rsrcIcon, moveIcon, atkIcon, amrIcon, vslRngIcon, wpRngIcon;
     [SerializeField] private TextMeshProUGUI nameTxt, hpTxt, rsrcTxt, moveTxt, atkTxt, amrTxt, vslRngTxt, wpRngTxt;
+    
     void Awake()
     {
         instance = this;
@@ -85,6 +86,7 @@ public class InfoManager : MonoBehaviour
 
         hpIcon.color = Color.white;
         hpTxt.text = $"{building.CurHP}/{building.MaxHP}";
+      
     }
 
 }
