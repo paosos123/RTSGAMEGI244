@@ -5266,7 +5266,7 @@ MonoBehaviour:
   maxHP: 100
   moveSpeed: 5
   minWpnDamage: 0
-  maxWpnDamage: 0
+  maxWpnDamage: 12
   armour: 0
   visualRange: 0
   weaponRange: 0
