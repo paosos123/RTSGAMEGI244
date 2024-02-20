@@ -132,8 +132,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 1
-  unitName: 
-  unitPic: {fileID: 21300000, guid: d4bc8209a448d5b4597d648b627b8231, type: 3}
+  unitName: Girl
+  unitPic: {fileID: 21300000, guid: 8c0e2c5fb8b57e848b01581258fa53fd, type: 3}
   curHP: 0
   maxHP: 100
   moveSpeed: 5
