@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 using UnityEngine.UI;
 
 public class ActionManager : MonoBehaviour
@@ -17,17 +16,7 @@ public class ActionManager : MonoBehaviour
         instance = this;
         cg = GetComponent<CanvasGroup>();
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
     
     private void HideCreateUnitButtons()
     {
