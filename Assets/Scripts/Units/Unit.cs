@@ -31,11 +31,7 @@ public class Unit : MonoBehaviour
     private NavMeshAgent navAgent;
     public NavMeshAgent NavAgent { get { return navAgent; } }
     [SerializeField] private Faction faction;
-    public Faction Faction
-    {
-        get { return faction; }
-        set { faction = value; }
-    }
+    public Faction Faction { get { return faction; } set { faction = value; } }
     [SerializeField] private GameObject selectionVisual;
     public GameObject SelectionVisual { get { return selectionVisual; } }
     [SerializeField] private UnitCost unitCost;
@@ -57,6 +53,9 @@ public class Unit : MonoBehaviour
     void Awake()
     {
         navAgent = GetComponent<NavMeshAgent>();
+
+        if (isBuilder)
+            builder = GetComponent<Builder>();
     }
 
     // Start is called before the first frame update
@@ -108,6 +107,13 @@ public class Unit : MonoBehaviour
         if (distance <= 1f)
             SetState(UnitState.Idle);
     }
+    public void LookAt(Vector3 pos)
+    {
+        Vector3 dir = (pos - transform.position).normalized;
+        float angle = Mathf.Atan2(dir.x, dir.z) * Mathf.Rad2Deg;
+        
+        transform.rotation = Quaternion.Euler(0f, angle, 0f);
+    }
 
 
 
@@ -118,6 +124,8 @@ public enum UnitState
     Idle,
     Move,
     Attack,
+    MoveToBuild,
+    BuildProgress,
     Die
 }
 

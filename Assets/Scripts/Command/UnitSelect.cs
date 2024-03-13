@@ -104,10 +104,13 @@ public class UnitSelect : MonoBehaviour
         curBuilding = null;
         //ClearUI
         InfoManager.instance.ClearAllInfo();
+        ActionManager.instance.ClearAllInfo();
     }
     private void ShowUnit(Unit u)
     {
         InfoManager.instance.ShowAllInfo(u);
+        if(u.IsBuilder)
+            ActionManager.instance.ShowBuilderMode(u);
         Debug.Log("Show Unit");
     }
     private void ShowBuilding(Building b)

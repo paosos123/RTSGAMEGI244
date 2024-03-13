@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -8230904931268349147}
   - component: {fileID: -867666237572160642}
   - component: {fileID: -4883448788787519547}
+  - component: {fileID: 6541268468673853192}
   m_Layer: 6
   m_Name: Girl
   m_TagString: Unit
@@ -151,6 +152,8 @@ MonoBehaviour:
     gold: 20
     stone: 0
   unitWaitTime: 0.1
+  isBuilder: 1
+  builder: {fileID: 0}
 --- !u!114 &-4883448788787519547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,6 +166,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 521802bcc706668429cb4e413c89e976, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6541268468673853192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872d1092b20d7894ea0899bc100fe3b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toBuild: 0
+  showGhost: 0
+  buildingList:
+  - {fileID: 6701903150122428424, guid: 1e2288eba2537dd44b7bb148ad056c8d, type: 3}
+  - {fileID: 6701903150122428424, guid: f885d1d1c6c36bd41a2261c28b607656, type: 3}
+  ghostBuildingList:
+  - {fileID: 6701903150122428424, guid: ed7ab214fbb55f043b97d1b35e6a8cc2, type: 3}
+  - {fileID: 6701903150122428424, guid: 9d0771c498dcc814498fe757605c8ab4, type: 3}
+  newBuilding: {fileID: 0}
+  ghostBuilding: {fileID: 0}
+  inProgressBuilding: {fileID: 0}
 --- !u!1 &13217585137867991
 GameObject:
   m_ObjectHideFlags: 0
