@@ -5269,8 +5269,8 @@ MonoBehaviour:
   minWpnDamage: 0
   maxWpnDamage: 12
   armour: 0
-  visualRange: 0
-  weaponRange: 0
+  visualRange: 30
+  weaponRange: 30
   state: 0
   faction: {fileID: 0}
   selectionVisual: {fileID: 2109569277557102196}
@@ -5290,6 +5290,7 @@ MonoBehaviour:
   attackRate: 1
   lastAttackTime: 0
   defendRange: 30
+  curEnemyBuildingTarget: {fileID: 0}
 --- !u!114 &-4883448788787519547
 MonoBehaviour:
   m_ObjectHideFlags: 0
