@@ -61,11 +61,11 @@ public class UnitSelect : MonoBehaviour
         }
         // mouse up
         if (Input.GetMouseButtonUp(0))
-        {
+        {   
             ReleaseSelectionBox(Input.mousePosition);
             TrySelect(Input.mousePosition);
         }
-
+        
     }
     private void SelectUnit(RaycastHit hit)
     {

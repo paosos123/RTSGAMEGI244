@@ -164,6 +164,7 @@ MonoBehaviour:
   attackRate: 1
   lastAttackTime: 0
   defendRange: 30
+  curEnemyBuildingTarget: {fileID: 0}
 --- !u!114 &-4883448788787519547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191,11 +192,13 @@ MonoBehaviour:
   toBuild: 0
   showGhost: 0
   buildingList:
+  - {fileID: 6701903150122428424, guid: 616335e24133f2f49888f50f3473eab2, type: 3}
   - {fileID: 6701903150122428424, guid: 1e2288eba2537dd44b7bb148ad056c8d, type: 3}
   - {fileID: 6701903150122428424, guid: f885d1d1c6c36bd41a2261c28b607656, type: 3}
   ghostBuildingList:
-  - {fileID: 6701903150122428424, guid: ed7ab214fbb55f043b97d1b35e6a8cc2, type: 3}
+  - {fileID: 6701903150122428424, guid: a79ea38be1a6acc4c8424bd4d1d275ed, type: 3}
   - {fileID: 6701903150122428424, guid: 9d0771c498dcc814498fe757605c8ab4, type: 3}
+  - {fileID: 6701903150122428424, guid: ed7ab214fbb55f043b97d1b35e6a8cc2, type: 3}
   newBuilding: {fileID: 0}
   ghostBuilding: {fileID: 0}
   inProgressBuilding: {fileID: 0}
