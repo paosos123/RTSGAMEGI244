@@ -1,146 +1,48 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b71ad40e238046238f9b0c6f33c3791, type: 3}
-  m_Name: SM_Bld_Garage_01_Convex
-  m_EditorClassIdentifier: 
-  ConvexMeshes:
-  - {fileID: 43178743295489200}
-  HashOfSourceMeshes: 8c803005045d96ce3996974600000000
---- !u!43 &43178743295489200
-Mesh:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Generated convex submesh 1
-  serializedVersion: 8
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 84
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 16
-    localAABB:
-      m_Center: {x: 0.0000009536743, y: 2.4248424, z: 0.08638656}
-      m_Extent: {x: 7.054186, y: 2.5350976, z: 3.4166121}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 03000a000f00010000000400040000000600040006000900080003000900080002000a00030008000a00060007000b00090006000b00080009000b00000001000c00060000000c00070006000c00020008000d000b0007000d0008000b000d00010004000e00050002000e00030005000e00040009000e00090003000e000c0001000e0007000c000e000d0007000e0002000d000e00020005000f00050003000f000a0002000f00
-  m_Skin: []
-  m_VertexData:
-    m_CurrentChannels: 1
-    m_VertexCount: 16
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 192
-    _typelessdata: 6202d3c090aa6340268d54c05febd7c09b1a0fb84fef4bc02fe8d4c0c7eb7e40c3525340cef7d440d58b093d0a6d534063ebd7409b1a0fb84fef4bc0a013d4c05d89323d3e7e52402893da40458c89406b2255c0749edac0d4b79e40c1282fbf2893da404d91904088ab2740e6bbe140a0cde1bdadd72ac054e0d44017e87e40905553402893da40d4b79e40c1282fbf749edac0458c89406b2255c0749edac0d4b79e40b1d2223fe2bbe1c0a0cde1bd97f038c0a7fd85c04ab9684022316040
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0.0000009536743, y: 2.4248424, z: 0.08638656}
-    m_Extent: {x: 7.054186, y: 2.5350976, z: 3.4166121}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshOptimized: 0
+ 会将安全代码(CVV、CVC)存储在此设备上，以便更快地结帐。",
+  "creditCardSaveCvvLocallyToggleTitle": "在此设备上保存卡安全代码",
+  "creditCardSelectAddress": "选择地址",
+  "creditCardSyncSuccessTokenizationNotEligible": "$1 已保存到你的 Microsoft 帐户但当前不支持虚拟卡号",
+  "creditCardTokenizationSuccess": "一切就绪! 你的卡片现在受 Edge 保护。",
+  "cryptoWallet": "加密钱包",
+  "cryptoWalletFeedbackDislikeConnectivity": "需要更多 dApp 支持",
+  "cryptoWalletFeedbackDislikeExp": "电子钱包体验不安全",
+  "cryptoWalletFeedbackDislikeProductComplex": "加密钱包太复杂",
+  "cryptoWalletFeedbackDislikeSupport": "需要更多支持",
+  "cryptoWalletFeedbackDislikeTransactionComplex": "代币交易太复杂",
+  "cryptoWalletFeedbackLikeConnectivity": "dApp 支持和连接易于设置",
+  "cryptoWalletFeedbackLikeSecurity": "安全功能使我感到安全",
+  "cryptoWalletFeedbackLikeSetup": "安装过程平滑",
+  "cryptoWalletFeedbackLikeSupport": "学习和客户支持非常有用",
+  "cryptoWalletFeedbackLikeTransaction": "代币交易很容易",
+  "cryptoWalletFeedbackOtherOption": "其他",
+  "cryptoWalletFeedbackThankYouText": "感谢你的反馈。这将有助于我们改进加密钱包。",
+  "cryptoWalletMicrofeedbackPrompt": "对加密钱包满意吗?",
+  "cryptoWalletNotEligibleDescription": "为什么在 Microsoft Edge 中禁用了加密钱包?",
+  "cryptoWalletNotEligibleReason": "为什么在 Edge 中禁用加密钱包? 可能因为系统要求不兼容，例如使用 Mac 而不是 Windows 设备，或者未启用受信任的平台模块 2.0 而禁用。$1。",
+  "deviceIneligibleDescription1": "为什么无法将电子钱包用于加密资产?",
+  "deviceIneligibleDescription2": "Windows 电脑需要启用受信任的平台模块 2.0 (TPM2.0) 或 Windows 核心隔离。如果未提供这些设置，则设备可能不支持这些功能。",
+  "digitalIWalletFeedbackDislikeMembershipApprear": "我不想在电子钱包中显示我的会员资格",
+  "digitalIWalletFeedbackDislikeMembershipFeatures": "我想在电子钱包中保存更多类型的会员资格",
+  "digitalIWalletFeedbackDislikeOther": "其他",
+  "digitalIWalletFeedbackDislikeTicketApprear": "我不想在电子钱包中显示票证",
+  "digitalIWalletFeedbackDislikeTicketFeatures": "我想在电子钱包中保存更多票证",
+  "digitalIdActionDelete": "删除",
+  "digitalIdActionEdit": "编辑",
+  "digitalIdActionMoreOption": "更多",
+  "digitalIdActions": "操作",
+  "digitalIdAddNewMembershipCardDisabledTooltip": "若要添加新会员资格，请在设置中打开首选项。",
+  "digitalIdAddNewMembershipCardDisabledTooltipLinkText": "在设置中启用首选项。",
+  "digitalIdAddNewMembershipCardDisabledTooltipTitle": "为什么禁用此功能?",
+  "digitalIdAddNewMembershipCardDisabledTooltipWithLink": "若要添加新的会员资格，$1",
+  "digitalIdClear": "清除",
+  "digitalIdClose": "关闭",
+  "digitalIdMembershipAddMembership": "添加会员资格",
+  "digitalIdMembershipAddMembershipCancel": "已取消添加会员资格。",
+  "digitalIdMembershipAddMembershipFail": "添加会员资格失败。",
+  "digitalIdMembershipAddMembershipPage": "“添加会员资格”页",
+  "digitalIdMembershipAddMembershipSuccess": "成功添加会员资格。",
+  "digitalIdMembershipCardCopyIconAriaLabel": "复制 $1 的卡号",
+  "digitalIdMembershipCardListPageTitle": "会员资格页面，$1 张卡",
+  "digitalIdMembershipCardNumberCopyFail": "未能复制会员资格编号：$1",
+  "digitalIdMembershipCardNumberCopySuccess": "成功复制会员资格号！",
+  "digitalIdMembershipEditMembershipCancel": "已取消编辑会�

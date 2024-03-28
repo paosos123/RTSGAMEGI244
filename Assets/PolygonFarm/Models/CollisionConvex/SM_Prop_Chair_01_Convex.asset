@@ -1,146 +1,53 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b71ad40e238046238f9b0c6f33c3791, type: 3}
-  m_Name: SM_Prop_Chair_01_Convex
-  m_EditorClassIdentifier: 
-  ConvexMeshes:
-  - {fileID: 43553120445311096}
-  HashOfSourceMeshes: 474375bccfbdbcc03996974600000000
---- !u!43 &43553120445311096
-Mesh:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Generated convex submesh 1
-  serializedVersion: 8
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 84
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 16
-    localAABB:
-      m_Center: {x: 0.0043983757, y: 0.60421073, z: 0.0018757582}
-      m_Extent: {x: 0.30683216, y: 0.61380136, z: 0.27812874}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 0d0009000f00010002000300030002000700050004000800040006000800000003000900030007000900050000000a00040005000a00000005000b00080001000b00050008000b00030000000c00010003000c0000000b000c000b0001000c00060004000d00040009000d00000009000e00090004000e000a0000000e0004000a000e00020001000f00070002000f00010008000f00080006000f00090007000f0006000d000f00
-  m_Skin: []
-  m_VertexData:
-    m_CurrentChannels: 1
-    m_VertexCount: 16
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 192
-    _typelessdata: 58e03fbe00221dbc7485853e9c599f3e2070ec3cde8473befad2873e33ad993feaad7fbe9c599f3e2070ec3c517e853e9ad89abe40f90b3f4e5c773eb88a8abeed0b8f3c43c168beed51353ed071993fbc9983be23df843e3bfd973f8e43883e9ad89abe40f90b3f08718dbe1cf2483ed071993fc05c8f3eaa418abe17ca983c14d87e3e58e03fbe00221dbc249373be06b0873e992a0a3cdb4f6cbeed51353ed071993f517e853e2b8a8cbeecd5f63eed64823e1cf2483ed2e79b3fbc9983be
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0.0043983757, y: 0.60421073, z: 0.0018757582}
-    m_Extent: {x: 0.30683216, y: 0.61380136, z: 0.27812874}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshOptimized: 0
+ExportPasswordFail": "匯出密碼失敗。",
+  "digitalIdPasswordExportPasswordSuccess": "已成功匯出密碼。",
+  "digitalIdPasswordGuidanceStep": "步驟 $1",
+  "digitalIdPasswordHealthStateIgnored": "已忽略密碼健全狀況狀態",
+  "digitalIdPasswordHealthStateShown": "已顯示密碼健全狀況狀態",
+  "digitalIdPasswordHowThisWorks": "運作方式為何",
+  "digitalIdPasswordIgnoreWarningMenu": "忽略警告",
+  "digitalIdPasswordIgnoredPassword": "已忽略密碼",
+  "digitalIdPasswordIgnoredWarningsListTitle": "略過警告",
+  "digitalIdPasswordImportFromFileHint": "來自密碼管理員的 $1 個密碼 CSV 檔案",
+  "digitalIdPasswordImportFromFileHintLink": "了解如何匯出",
+  "digitalIdPasswordImportOptionFromFile": "密碼 CSV 檔案",
+  "digitalIdPasswordImportPasswordChooseFileButton": "選擇檔案",
+  "digitalIdPasswordLastScanAllBreached": "沒有未掃描的其他密碼",
+  "digitalIdPasswordLastScanExceededDaily": "請在24小時後再次檢查",
+  "digitalIdPasswordLastScanLessThanOneHour": "上次掃描時間在 1 小時內",
+  "digitalIdPasswordLastScanMoreDays": "上次掃描是在 $1 天前",
+  "digitalIdPasswordLastScanMoreHours": "上次掃描是在 $1 小時前",
+  "digitalIdPasswordLastScanNoPasswords": "目前沒有任何已儲存的密碼",
+  "digitalIdPasswordLastScanOneDay": "上次掃描是在 1 天前",
+  "digitalIdPasswordLastScanOneHour": "上次掃描是在 1 小時前",
+  "digitalIdPasswordLeakedListDescription": "若要保護您的帳戶，請立即變更這些密碼",
+  "digitalIdPasswordLeakedListTitle": "在資料外泄中找到這些密碼",
+  "digitalIdPasswordLeakedState": "密碼已外洩",
+  "digitalIdPasswordLeakedTab": "外洩",
+  "digitalIdPasswordListChangePasswordButton": "變更密碼",
+  "digitalIdPasswordListHeader": "$1 個網站和應用程式",
+  "digitalIdPasswordListOpenWebsiteButton": "開啟網站",
+  "digitalIdPasswordListSearchResult": "找到 $2 的 $1 個密碼",
+  "digitalIdPasswordListSort": "排序",
+  "digitalIdPasswordListSortOptionFrequentlyUsed": "常用",
+  "digitalIdPasswordListSortOptionRecentlyModified": "最近修改",
+  "digitalIdPasswordListSortOptionRecentlyUsed": "最近用過的",
+  "digitalIdPasswordLockReminderBody": "為了保護您的密碼安全，密碼在閒置 $1 分鐘後鎖定",
+  "digitalIdPasswordLockReminderTitle": "密碼已鎖定",
+  "digitalIdPasswordManagePasskeys": "管理金鑰",
+  "digitalIdPasswordMonitorWorkflowFourthStep": "變更上述密碼以協助保護您的帳戶。",
+  "digitalIdPasswordMoreWaysToImport": "更多匯入方式",
+  "digitalIdPasswordNeverSavedPasswordTitle": "$1 永不儲存的密碼",
+  "digitalIdPasswordNoLeakedPasswordsDescription": "如果密碼外泄，您將會收到警示",
+  "digitalIdPasswordNoLeakedPasswordsTitle": "沒有外洩的密碼",
+  "digitalIdPasswordNoReusedPasswordsDescription": "您未重複使用任何密碼",
+  "digitalIdPasswordNoReusedPasswordsTitle": "您的密碼是唯一的",
+  "digitalIdPasswordNoWeakPasswordsDescription": "您的密碼似乎很難猜",
+  "digitalIdPasswordNoWeakPasswordsTitle": "您正在使用強式密碼",
+  "digitalIdPasswordPasskeyDescription": "這些金鑰會儲存到此裝置，而不是儲存到您的 Microsoft 帳戶。",
+  "digitalIdPasswordPasskeySearchResult": "找到 $2 的 $1 帳戶",
+  "digitalIdPasswordPasswordColumnHeader": "密碼",
+  "digitalIdPasswordRemovePasswordException": "從清單中移除網站",
+  "digitalIdPasswordRestoreWarningMenu": "還原警告",
+  "digitalIdPasswordRestoredPassword": "密碼已還原",
+  "digitalIdPasswordReusedListDescription": "如果有人發現重複使用的密碼，就可以使用它來存取您的其他帳戶。",
+  "digitalIdPasswordReusedListSub

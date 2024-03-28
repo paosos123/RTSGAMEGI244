@@ -1,71 +1,2 @@
-fileFormatVersion: 2
-guid: e5e81f1a9b0717b4e8319ba96756b354
-timeCreated: 1496613526
-licenseType: Store
-ModelImporter:
-  serializedVersion: 18
-  fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: SM_Prop_Sack_03
-    9500000: //RootNode
-  materials:
-    importMaterials: 0
-    materialName: 0
-    materialSearch: 1
-  animations:
-    legacyGenerateAnimations: 4
-    bakeSimulation: 0
-    optimizeGameObjects: 0
-    motionNodeName: 
-    animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
-    animationWrapMode: 0
-    extraExposedTransformPaths: []
-    clipAnimations: []
-    isReadable: 0
-  meshes:
-    lODScreenPercentages: []
-    globalScale: 100
-    meshCompression: 0
-    addColliders: 0
-    importBlendShapes: 0
-    swapUVChannels: 0
-    generateSecondaryUV: 0
-    useFileUnits: 1
-    optimizeMeshForGPU: 1
-    keepQuads: 0
-    weldVertices: 1
-    secondaryUVAngleDistortion: 8
-    secondaryUVAreaDistortion: 15.000001
-    secondaryUVHardAngle: 88
-    secondaryUVPackMargin: 4
-    useFileScale: 1
-  tangentSpace:
-    normalSmoothAngle: 5
-    splitTangentsAcrossUV: 0
-    normalImportMode: 1
-    tangentImportMode: 1
-  importAnimation: 0
-  copyAvatar: 0
-  humanDescription:
-    human: []
-    skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
-    feetSpacing: 0
-    rootMotionBoneName: 
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
-  additionalBone: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+ï§Û[]½ÒV?Üi“_­ÿÃ—ì˜â~J‹.u>´RšøâiáòäÎãí¨èÜv¼àü;+sËF[¦‹zfØ…ßv<^x0+öâªí¯zNwún‘V—ùÌaêÍwASµµ§Ë³]Ä¯	µ?®ëÅƒ”·h­Êï|S³÷“õ^×Ëý2.Ù2=^ý2.çÝáƒÙqòÔ-­mnF2Ç´^Vž-ö‡¤´¯õo?ñH](¿&+%³Ú³ÏSç3]rïüâ›ó,¶ýåBôG\Ý¼½Æ¶J¿;hY§çqÇBÂCç­µÈaÞ¸ÃÖ2Ãw/es~5V°>‘žL\l(ê—ÇpàfR½­$¸X¹4ár!G2¾ÈðbGqyD1ëi4Öòî„<å×V_O»6£o»%rÍâðíg}™¦õB¶4×ÜUŒÒQÊAÑ(ê£Zf¹¼ºodfëé·<lþlsMœ>­ÇÍ…L*[Ë™x&¶6º6jd‡½–Õ³µÚ¸‘*–aRÅ(Ê&U,ôß9ÈáÍjý¼~Ñê1´UÜªšÈ5þú=°ôS/I|ù »ìQR;ß3Ñ+ÌÞ¾ç+_àþseêŒ*·ÞËÛû%m¿$sÎÒm›×¿ªØ¨}q?jè¡kæªÃ‹æH}ß˜¥þ”yÄ÷F§_¶—ÞYb1Ÿ³(óêæ¯;w>­ãœg¿=y|cdóÀðÍ™³ž¦»×´YXí<åúTËóë)¯ÆÖºk³hRÊf¿LÐNkÓ¿d¶Ó+ç§é§~nñ!ËåÈü±;Z¯­ÈÍŒ™ßõÈë{¾È¼4›ŽñË~q~åÉjõŸ§ÙÜ| º³t¾ÏÎÞV–Êñ3/ü>ÿ¤•H:õÙ æ¶¸–y÷øÀo³Ùg_šâ’8ÞwçŠÀçÇVvN¨÷¥ ^nGgì=®±Û¥ÄÒ&¥}¥WÂí‰ßŠí~Xº ûäîC¦Ž«m–ÀéùòØ‚±~Qð#_?‡·µ!’š5áÕ¯ÓÖŽ°WºZ~}ÉêrÞÍÑ¸“¿:Ü«ø‰»þ×·>Wš=o¹ø­MëÈ7__[:4n› o¼²odÊêŽS­+¯8+•8WÉ›_·Ì¸t«îí­x«y3>¤ÚË*wñÜ]ŸÕZµgÊ„iÇí¶Ò"kÎÓù+G7ïç»­¼¹|³â¹ýà?ì‡·Ü2êX¿%ñr¿Yoôo}™âè¨ƒ›ßXjÇí^Ð~Ùïƒjö7×­–X­IžÞÓž©æ ~?1ÖoûÂ@R¿ÿõ›	a¨ØA>ŒúË	À`ô?÷¸ÿOÕûÛºâ5W.$LnSY$kzmÇõ{gvuO]qô’cJË&O|w"i…ž‘Z?œÊ˜f—8µYÇÉ+gd1­Î£¢»ƒw<-hòÒ’;ãéèŸ›hùÕÜç/
+œ}þ|g”Ëý;)êv»§÷&ö˜èxŸUÇWwäÎ½¸xJÁÏ‹qé«G¿å'k½|d—niæ79>oûMœÈ¨¿ú­3÷Í—§§¯»ë6ýËW¿Øü&Ü”^’¶>vâ·	¨S|¾uk¯ü%ÓoþÊÖiþëßYÇÛŠª¿ñ¨ÛÀ÷Ô,—Ta²bâmºì·í'ßŒoW¹Œ’øyö•vÃ§Ô)è.kþ|9{-u´EçŒ¯y{~”š«÷÷‘ïþ®z7ú üQõ¶2­Þ@AÌ°lñ6‘6®ñò[—»Pñ_žžÕV+ìë:Õ.Z‘¤ûâ…ÀF¦ü¿¦êÿKîk«é_ïÉâÄ_º·~Å€G+º&Skdúþ½JÌm¾?ºsð„Í²“’ùcKr6w§§HmRg^y½û¶U_Ìr¾æB\¾màó1Ç¶£_ß9AÌ;0.áúÓt»K]¾Ÿ|óÎ¸~§ªvßžúœïWÃ¹7©MË¥oÿøóæÀ™2‹—‚ë¥ÛSæŽ/k§m®›Sà»·«åýœ¬ö3ÆH;\8ù¿þYÞ©\ÞÞ[kvà~iû5b›+?ŠãŸžÙìð eÌÐ½AÞ}ìz°}ˆYÇÁ'Óµn™CÛ*³zQb[Ë_ÎÛÎø=|Kþë|ýî¼®ùs×Ì»sK§/K:ùGÅ®eŽƒr¼žÌŸíÈà”s°½kIóê§fû}¶‹^wëõÃ!n,\¢Úœ²·¿»¤U¹YxÚØþ=ã¢m·¯[·:¹àÀ·?T

@@ -1,146 +1,43 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b71ad40e238046238f9b0c6f33c3791, type: 3}
-  m_Name: SM_Generic_Grass_Patch_01_Convex
-  m_EditorClassIdentifier: 
-  ConvexMeshes:
-  - {fileID: 43219086094553318}
-  HashOfSourceMeshes: b96e68a0dd5a40c53996974600000000
---- !u!43 &43219086094553318
-Mesh:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Generated convex submesh 1
-  serializedVersion: 8
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 84
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 16
-    localAABB:
-      m_Center: {x: 0.042220578, y: 0.19353628, z: 0.010813877}
-      m_Extent: {x: 0.14767712, y: 0.31501365, z: 0.15749142}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 050008000f00010000000400040002000600010003000700030005000700050002000800040006000900020005000a00060002000a00000001000b00040000000b00020004000b00010008000b00080002000b00050003000c000a0005000c0006000a000c00090006000d0006000c000d000c0009000d00030001000e00010004000e00040009000e000c0003000e0009000c000e00010007000f00070005000f00080001000f00
-  m_Skin: []
-  m_VertexData:
-    m_CurrentChannels: 1
-    m_VertexCount: 16
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 192
-    _typelessdata: 1498afbd74899a3e39582c3ed6c8c3bd74899a3e39582c3e8ab27d3d22c9f8bd59784d3d1498afbd5430023fa33216be8b74423eecbbb33e0ae4f33db54587bd7a88f8bd987845bd520da73dd693e4bdaa2d11bc9af9d7bdb28e9f3e02c4e9bcbc6542bdfc8abfbd49731a3d662b243e74899a3e0e2d253dc10eb93c22c9f8bda34d1dbd50679bbd8e698b3e39582c3e78769bbdec3dfa3ea33216bed96ecf3d50d3d63caa2d11bc78769bbd5430023fd01f0cbe78769bbd007e2ebd52ac10bc
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0.042220578, y: 0.19353628, z: 0.010813877}
-    m_Extent: {x: 0.14767712, y: 0.31501365, z: 0.15749142}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshOptimized: 0
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_iii_1_8)">
+<path d="M32 54.6779C32 39.4393 44.314 27.077 59.5334 27.0004C59.6251 26.9999 59.7148 27.0311 59.7866 27.0882L60.1216 27.3548C60.252 27.4585 60.4445 27.3657 60.4445 27.199C60.4445 27.0891 60.5336 27 60.6436 27H238.223C242.15 27 245.334 30.184 245.334 34.1117V162.122C245.334 166.05 242.15 169.234 238.223 169.234H79.4076C68.9346 169.234 60.4445 160.743 60.4445 150.269V95.4075C60.4445 87.7039 55.6451 81.0375 48.8593 77.3918C39.8631 72.5585 32 65.7542 32 54.6779Z" fill="url(#paint0_linear_1_8)"/>
+<path d="M88.8882 83.7261C88.8882 69.5516 102.454 59.3179 116.082 63.2119L267.37 106.44C279.581 109.929 288 121.092 288 133.792V240.507C288 254.682 274.434 264.916 260.806 261.022L104.361 216.32C95.2024 213.703 88.8882 205.331 88.8882 195.805V83.7261Z" fill="white"/>
+<path d="M88.8882 83.7261C88.8882 69.5516 102.454 59.3179 116.082 63.2119L267.37 106.44C279.581 109.929 288 121.092 288 133.792V240.507C288 254.682 274.434 264.916 260.806 261.022L104.361 216.32C95.2024 213.703 88.8882 205.331 88.8882 195.805V83.7261Z" fill="url(#paint1_linear_1_8)"/>
+<path d="M32 55.4416V190.968C32 201.927 38.295 211.912 48.183 216.636L206.713 292.377C211.433 294.631 216.89 291.191 216.89 285.96V155.723C216.89 149.933 213.38 144.721 208.014 142.544L60.4445 82.6648C48.188 77.6564 32.5138 70.6919 32 55.4416Z" fill="url(#paint2_linear_1_8)"/>
+</g>
+<defs>
+<filter id="filter0_iii_1_8" x="31.1111" y="25.9333" width="257.778" height="268.036" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="0.888892" dy="0.888892"/>
+<feGaussianBlur stdDeviation="0.533335"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.588235 0 0 0 0 0.776471 0 0 0 0 1 0 0 0 0.35 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_1_8"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-0.888892" dy="-1.33334"/>
+<feGaussianBlur stdDeviation="0.533335"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.215686 0 0 0 0 0.2 0 0 0 0 1 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow_1_8" result="effect2_innerShadow_1_8"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="0.888892"/>
+<feGaussianBlur stdDeviation="0.444446"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.588235 0 0 0 0 0.776471 0 0 0 0 1 0 0 0 0.35 0"/>
+<feBlend mode="normal" in2="effect2_innerShadow_1_8" result="effect3_innerShadow_1_8"/>
+</filter>
+<linearGradient id="paint0_linear_1_8" x1="160" y1="280.985" x2="125.533" y2="28.795" gradientUnits="userSpaceOnUse">
+<stop offset="0.551387" stop-color="#3733FF"/>
+<stop offset="0.79256" stop-color="#4285F2"/>
+<stop offset="1" stop-color="#73B3FF"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1_8" x1="288" y1="293.08" x2="32" y2="293.08" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFD400"/>
+<stop offset="0.5" stop-color="#F18C0A"/>
+</linearGradient>
+<linearGradient id="paint2_linear_1_8" x1="131.556" y1="268.792" x2="113.038" y2="54.744" gradientUnits="userSpaceOnUse">
+<stop stop-color="#296EEB"/>
+<stop offset="1" stop-color="#73B3FF"/>
+</line

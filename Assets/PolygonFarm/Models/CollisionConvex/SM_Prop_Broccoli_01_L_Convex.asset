@@ -1,146 +1,45 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b71ad40e238046238f9b0c6f33c3791, type: 3}
-  m_Name: SM_Prop_Broccoli_01_L_Convex
-  m_EditorClassIdentifier: 
-  ConvexMeshes:
-  - {fileID: 43980039442754318}
-  HashOfSourceMeshes: dcd94e7fbd99ebb83996974600000000
---- !u!43 &43980039442754318
-Mesh:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Generated convex submesh 1
-  serializedVersion: 8
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 84
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 16
-    localAABB:
-      m_Center: {x: -0.013573915, y: 0.21549615, z: 0.07396191}
-      m_Extent: {x: 0.45394188, y: 0.23308745, z: 0.39719915}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 04000a000f00040000000700000005000700050001000700040007000800070001000800040008000a00010005000b00050002000b00080001000b000a0008000b000a000b000c00020006000c0006000a000c000b0002000c00050000000d00020005000d00030006000d00060002000d00090003000d00000009000d00000004000e00040009000e00090000000e00060003000f00030009000f00090004000f000a0006000f00
-  m_Skin: []
-  m_VertexData:
-    m_CurrentChannels: 1
-    m_VertexCount: 16
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 192
-    _typelessdata: e1ea8fbd1fe8643e5a7fa5be3b5eefbe72818f3e80a04c3b8f0402be9e67563e063cf13ee977e13e58cc0d3e8825a8bd1a2f213dc0ace53efbc8adbd565a2bbda01b90bcaeb9003d493e8a3e1fe8643eb9776b3ebc92d9bec3fb9d3e8b881cbe3ec7c3be7482ac3e4175b43d7be8d23e3a591c3e80062bbe3bf3853d7b33e53e734ee83d183a76bea068733e8921d43eb8836a3d82bb963e8fe2cc3e32a3303da01b90bcaeb9003d32a3303d0075733e5a7fa5be3230da3e9c66393e80a04c3b
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -0.013573915, y: 0.21549615, z: 0.07396191}
-    m_Extent: {x: 0.45394188, y: 0.23308745, z: 0.39719915}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshOptimized: 0
+ockReminderBody": "암호를 안전하게 유지하려면 $1분 동안 비활성 상태일 때 암호가 잠기게 됩니다.",
+  "digitalIdPasswordLockReminderTitle": "암호가 잠겨 있음",
+  "digitalIdPasswordManagePasskeys": "암호 키 관리",
+  "digitalIdPasswordMonitorWorkflowFourthStep": "계정 보안을 위해 위의 암호를 변경합니다.",
+  "digitalIdPasswordMoreWaysToImport": "다양한 가져오기 방법",
+  "digitalIdPasswordNeverSavedPasswordTitle": "$1개 암호 저장 안 됨",
+  "digitalIdPasswordNoLeakedPasswordsDescription": "암호가 유출되면 알림을 받게 됩니다.",
+  "digitalIdPasswordNoLeakedPasswordsTitle": "유출된 암호 없음",
+  "digitalIdPasswordNoReusedPasswordsDescription": "암호를 재사용하고 있지 않습니다.",
+  "digitalIdPasswordNoReusedPasswordsTitle": "암호는 고유합니다",
+  "digitalIdPasswordNoWeakPasswordsDescription": "귀하의 암호는 추측하기 어려운 것 같습니다.",
+  "digitalIdPasswordNoWeakPasswordsTitle": "강력한 암호를 사용하고 있습니다",
+  "digitalIdPasswordPasskeyDescription": "이러한 암호는 이 디바이스에만 저장됩니다. Microsoft 계정에 저장되지 않습니다.",
+  "digitalIdPasswordPasskeySearchResult": "$2에 대해 $1개의 계정을 찾았습니다.",
+  "digitalIdPasswordPasswordColumnHeader": "암호",
+  "digitalIdPasswordRemovePasswordException": "이 목록에서 사이트 제거",
+  "digitalIdPasswordRestoreWarningMenu": "경고 복원",
+  "digitalIdPasswordRestoredPassword": "암호가 복원됨",
+  "digitalIdPasswordReusedListDescription": "다른 사용자가 재사용된 암호를 검색하면 다른 계정에 액세스하는 데 사용할 수 있습니다.",
+  "digitalIdPasswordReusedListSubtitle": "동일한 암호를 사용하는 $1 계정",
+  "digitalIdPasswordReusedListTitle": "모든 사이트 또는 앱에 고유한 암호 사용",
+  "digitalIdPasswordReusedTab": "재사용",
+  "digitalIdPasswordSavedPasswordsNumber": "$1개 저장됨",
+  "digitalIdPasswordScanDelayed": "스캔 시간이 더 오래 걸립니다. 완료되면 알려드리겠습니다.",
+  "digitalIdPasswordScanFirstRun": "아직 스캔이 완료되지 않음",
+  "digitalIdPasswordScanInProgress": "검사 진행 중($1/$2)",
+  "digitalIdPasswordScanNow": "지금 검사",
+  "digitalIdPasswordScanNowDisabledTooltip": "$1에서 유출된 암호 검색 사용",
+  "digitalIdPasswordScanNowErrorMessage": "검사에 실패했습니다. 나중에 다시 시도하세요.",
+  "digitalIdPasswordScanResultCompleted": "검사를 완료했습니다!",
+  "digitalIdPasswordScanResultCouldNotScanCount": "$1개 암호",
+  "digitalIdPasswordScanResultCouldNotScanText": "검사할 수 없음",
+  "digitalIdPasswordScanResultFailed": "검사 실패",
+  "digitalIdPasswordScanResultLeakedPasswords": "$1개 새로 유출된 암호",
+  "digitalIdPasswordScanResultScannedPasswords": "$1/$2개의 암호가 검색됨",
+  "digitalIdPasswordScanResultStopped": "검사 중지됨",
+  "digitalIdPasswordScanResultTooltip": "암호 항목에 사용자 이름 또는 암호가 없는 경우 지난 24시간 동안 검색되었습니다. 또는 이미 유출된 것으로 알려져 있으므로 다시 검사하지 않습니다.",
+  "digitalIdPasswordScanResultTryLater": "나중에 다시 시도하세요.",
+  "digitalIdPasswordScanRunning": "백그라운드에서 이미 실행 중인 검사",
+  "digitalIdPasswordSearchPasskeysPlaceholder": "암호 키 검색",
+  "digitalIdPasswordSearchResult": "$1 사이트 및 앱이 $2에 대해 발견됨",
+  "digitalIdPasswordSecurityTips": "보안 팁",
+  "digitalIdPasswordSeeDetailsActionAria": "세부 정보 보기",
+  "digitalIdPasswordSelectCategory": "범주 선택",
+  "dig

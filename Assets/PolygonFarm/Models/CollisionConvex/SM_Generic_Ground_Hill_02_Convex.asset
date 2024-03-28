@@ -1,146 +1,117 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b71ad40e238046238f9b0c6f33c3791, type: 3}
-  m_Name: SM_Generic_Ground_Hill_02_Convex
-  m_EditorClassIdentifier: 
-  ConvexMeshes:
-  - {fileID: 43764053569085310}
-  HashOfSourceMeshes: d36b7f4672ad03db3996974600000000
---- !u!43 &43764053569085310
-Mesh:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Generated convex submesh 1
-  serializedVersion: 8
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 84
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 16
-    localAABB:
-      m_Center: {x: 0.0005130768, y: 1.172172, z: -0.06673241}
-      m_Extent: {x: 10.531307, y: 1.336764, z: 9.710924}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 0a000b000f00020001000400040001000500000004000700040005000700080006000900020004000900040008000900050001000a00070005000a00010002000b00020009000b000a0001000b00000007000c000a0003000c0007000a000c00030006000d000c0003000d0000000c000d00040000000e00080004000e00060008000e000d0006000e0000000d000e00060003000f00090006000f0003000a000f000b0009000f00
-  m_Skin: []
-  m_VertexData:
-    m_CurrentChannels: 1
-    m_VertexCount: 16
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 192
-    _typelessdata: e9260e4158ce283e9c4e1a415c8a67c0d08a28be48711cc13bf81dc1d08a28bec51617c1b757a93f68922040386003c03bf81dc1d08a28bebdb80f418beb1d41d08a28be0ca00cc1b3863dbf38641b4064460c3f56822841d08a28be86c00f41f63623c158ce283e97750a41227e28c158ce283e534d07c18beb1d4158ce283e0ca00cc1aa6d52c0beedfc3e32e311c1d0ac1841beedfc3efbd1ea40aa80a53f4dd71e40fd5e8c3f272b0ec158ce283e093f1a41de6451bf435a114068d36fc0
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0.0005130768, y: 1.172172, z: -0.06673241}
-    m_Extent: {x: 10.531307, y: 1.336764, z: 9.710924}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshOptimized: 0
+1f17e07b4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileTypes": [
+        "SPDX"
+      ]
+    },
+    {
+      "fileName": "./../tokenized-card-mock/_manifest/spdx_2.2/manifest.spdx.json",
+      "SPDXID": "SPDXRef-File--..-tokenized-card-mock--manifest-spdx-2.2-manifest.spdx.json-7D15841EDE586F4E0EE0C2535F15BA69189C5E29",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "616b93160b7ff45d68f34a5861f9aa128ed0d2b2b26ddcef1234d18cc263b0b3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7d15841ede586f4e0ee0c2535f15ba69189c5e29"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileTypes": [
+        "SPDX"
+      ]
+    },
+    {
+      "fileName": "./../ec-driver/_manifest/spdx_2.2/manifest.spdx.json",
+      "SPDXID": "SPDXRef-File--..-ec-driver--manifest-spdx-2.2-manifest.spdx.json-ABF5A2CC9A571FDA7BD5EFBAB0F3639639C2768B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f5480d759e1893bc79d27d7743adf4ecd9037b54affba19c8978a3a6cbac475e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "abf5a2cc9a571fda7bd5efbab0f3639639c2768b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileTypes": [
+        "SPDX"
+      ]
+    },
+    {
+      "fileName": "./Wallet-Checkout/_manifest/spdx_2.2/manifest.spdx.json",
+      "SPDXID": "SPDXRef-File--Wallet-Checkout--manifest-spdx-2.2-manifest.spdx.json-34DAA85F04A94C47D47EBF9A1D36EB9A50354E3D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bc4eda46e8f0b8cb027ac719a04480dbd85b85e5fcae562195e13f458b8baff0"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "34daa85f04a94c47d47ebf9a1d36eb9a50354e3d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileTypes": [
+        "SPDX"
+      ]
+    },
+    {
+      "fileName": "./../bundle-crypto/_manifest/spdx_2.2/manifest.spdx.json",
+      "SPDXID": "SPDXRef-File--..-bundle-crypto--manifest-spdx-2.2-manifest.spdx.json-125E660558A1BE44A274BE7A0E2A72168A555272",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1273d671fac7971eb27c62f3439878907ca80ca6a37af10ec282dd0bb84d87c0"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "125e660558a1be44a274be7a0e2a72168a555272"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileTypes": [
+        "SPDX"
+      ]
+    },
+    {
+      "fileName": "./../hub-fallback/_manifest/spdx_2.2/manifest.spdx.json",
+      "SPDXID": "SPDXRef-File--..-hub-fallback--manifest-spdx-2.2-manifest.spdx.json-62D9BB6B95A0A87A3F642ABF1062DB6F470C1A6B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7135985e25741d86597a1f5ee3ab94738c6d03f33b0777ae4830fa3a953598ce"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "62d9bb6b95a0a87a3f642abf1062db6f470c1a6b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+  

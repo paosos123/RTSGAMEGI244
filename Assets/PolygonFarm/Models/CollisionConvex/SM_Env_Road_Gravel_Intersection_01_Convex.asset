@@ -1,146 +1,53 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b71ad40e238046238f9b0c6f33c3791, type: 3}
-  m_Name: SM_Env_Road_Gravel_Intersection_01_Convex
-  m_EditorClassIdentifier: 
-  ConvexMeshes:
-  - {fileID: 43787457212087526}
-  HashOfSourceMeshes: bab8d9e558637d6b3996974600000000
---- !u!43 &43787457212087526
-Mesh:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Generated convex submesh 1
-  serializedVersion: 8
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 84
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 16
-    localAABB:
-      m_Center: {x: -0.11933732, y: 0.11905764, z: -0.11933732}
-      m_Extent: {x: 7.500351, y: 0.23811527, z: 7.500351}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 020009000f00020001000000020000000500030004000600000001000700040003000800040008000900050004000900040005000a00050000000a00000006000a00060004000a00000007000b00070003000b00020005000c00090002000c00050009000c00060000000d00030006000d0000000b000d000b0003000d00070001000e00030007000e00080003000e00010008000e00010002000f00080001000f00090008000f00
-  m_Skin: []
-  m_VertexData:
-    m_CurrentChannels: 1
-    m_VertexCount: 16
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 192
-    _typelessdata: 7dd473407cd4f3bd4431ec4025d336c07cd4f3bd7dd4f3c07dd473c07cd4f3bd4431ecc00b8ee4405edfb63e971946c0d153d5c05edfb63e401809404431ecc07cd4f3bd7dd4734025d336405edfb63e0af7dc404431ec407cd4f3bd7dd473c0b25e18405edfb63e4431ecc00b8ee4c05edfb63e0b8e64c00b8e64c07ed4f33d4431ec404431ec407cd4f3bd0b8e64407dd4f3c07cd4f3bd994755c00af7dc405edfb63e994755403f8181407cd4f3bd4431ecc0994755c05edfb63e0af7dcc0
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -0.11933732, y: 0.11905764, z: -0.11933732}
-    m_Extent: {x: 7.500351, y: 0.23811527, z: 7.500351}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshOptimized: 0
+": "簡訊",
+  "tokenizeCardCvvInvalidError": "請驗證您的安全性驗證碼，然後再試一次。",
+  "tokenizeCardEnterCode": "輸入代碼",
+  "tokenizeCardEnterCodeStepTitle": "讓我們為您進行驗證",
+  "tokenizeCardEnterCvvStepDescription": "您的銀行要求您對結尾為 $2 的 $1 相關聯的 CVV 安全碼進行驗證。",
+  "tokenizeCardErrorStepTitle": "發生錯誤",
+  "tokenizeCardFetchCodeError": "您的發卡機構在傳送代碼時發生問題。要求其他驗證碼或使用其他驗證方法。",
+  "tokenizeCardFetchCodeErrorCustomerService": "您的發卡機構在產生代碼時發生問題。請嘗試其他驗證方法，或稍後再試一次。",
+  "tokenizeCardGeneralError": "您的發卡機構目前發生問題，請稍後再試。",
+  "tokenizeCardLoadingTitle": "正在連絡您的銀行…",
+  "tokenizeCardNext": "下一步",
+  "tokenizeCardResendCode": "重新傳送代碼",
+  "tokenizeCardSelectMethodDescription": "請選擇下列之一的驗證方法:",
+  "tokenizeCardSelectMethodStepTitle": "讓我們為您進行驗證",
+  "tokenizeCardSendingCode": "代碼已傳送!",
+  "tokenizeCardTryAgain": "再試一次",
+  "tokenizeCardValidationError": "您的發卡機構無法驗證。請稍後再試一次。",
+  "tokenizeCardVerify": "驗證",
+  "tokenizeCardVerifyWithAnotherMethod": "使用其他方法驗證",
+  "tokenizeCardVerifying": "正在驗證",
+  "walletCommonAccountCount": "$1 個帳戶",
+  "walletDrawerAutoFillErrorMessage": "無法自動填寫 $1 的卡片資訊。請於結帳時以手動方式輸入您的 $1 卡片資訊。",
+  "walletDrawerAutoFillMessage": "我們已自動填寫您的 $1 卡片資訊。",
+  "walletDrawerAutoFillMessageWithBillingAddress": "已填入您來自 $1 的付款詳細資料。若否，請按一下下方的卡片和地址詳細資料以複製。",
+  "walletDrawerAutoFillMessageWithoutBillingAddress": "已填入您來自 $1 的付款詳細資料。若否，請按一下下方的卡片詳細資料以複製。若要完成此項購買，請填寫您的住家帳單地址。",
+  "walletDrawerCvcLabel": "CVC",
+  "walletDrawerExpirationLabel": "到期日",
+  "walletDrawerLabelCopyCardNumber": "複製卡號",
+  "walletDrawerLabelCopyCvc": "複製 CVC",
+  "walletDrawerLabelCopyNameAddress": "複製姓名及地址",
+  "walletDrawerLabelShowCardNumber": "顯示卡號",
+  "walletDrawerLabelShowCvc": "顯示 CVC",
+  "walletDrawerLabelShowExpirationDate": "複製到期日",
+  "walletDrawerLinkErrorMessage": "無法將您的 Microsoft 帳戶連結至 $1。請稍後再試。",
+  "walletDrawerNameAndAddressLabel": "您的姓名與帳單地址",
+  "walletDrawerPayWithVirtualCard": "使用您的 $1 $2 卡付款",
+  "walletDrawerSystemErrorHeader": "糟糕",
+  "walletDrawerVirtualCardNumberLabel": "虛擬卡號",
+  "walletFeedbackThankYouText": "感謝您的意見反應。這將協助我們改進電子錢包。",
+  "walletMicrofeedbackPrompt": "滿意電子錢包嗎?",
+  "walletNotInterestedText": "沒興趣",
+  "walletPWAAddShortcut": "新增捷徑",
+  "walletPWACommonPromoContent": "立即安裝以更快速存取電子錢包。",
+  "walletPWAPromoContent": "立即安裝，賺取 $1 Microsoft Rewards 點數。",
+  "walletPWAPromoTitle": "新增快捷方式到 [電子錢包]",
+  "walletSeeDetailsAriaLabel": "查看詳細資料",
+  "walletUXAddPaymentButtonTitle": "新增新卡片",
+  "walletUXManagePaymentButtonTitle": "管理付款方式",
+  "walletUXSInEligibleCardLogoContent": "此網站不支援虛擬卡片",
+  "walletUXSTokenCardLogoContent": "虛擬卡號 •••• 已啟用 $1 以保護您的付款資訊",
+  "zipDescriptionText": "立即購物，使用 Zip 分 6 週付款。$1",
+  "zipEstimatedFeesText": "可能收取延遲費用",
+  "zipFe

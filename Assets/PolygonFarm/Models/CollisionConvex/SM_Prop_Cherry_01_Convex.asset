@@ -1,146 +1,51 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b71ad40e238046238f9b0c6f33c3791, type: 3}
-  m_Name: SM_Prop_Cherry_01_Convex
-  m_EditorClassIdentifier: 
-  ConvexMeshes:
-  - {fileID: 43721629136925740}
-  HashOfSourceMeshes: 95b60f543eeb90893996974600000000
---- !u!43 &43721629136925740
-Mesh:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Generated convex submesh 1
-  serializedVersion: 8
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 84
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 16
-    localAABB:
-      m_Center: {x: -0.0016551688, y: 0.0020291843, z: -0.00041660294}
-      m_Extent: {x: 0.05428091, y: 0.05048627, z: 0.030804712}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 0d0007000f00000005000800080005000900050007000900010002000a00040008000a00080009000a00090001000a00030000000b00060003000b00040006000b00000008000b00080004000b00030006000c00060004000c000a0002000c0004000a000c00020001000d00010009000d00090007000d00000003000e00050000000e00030007000e00070005000e00070003000f000c0002000f0003000c000f0002000d000f00
-  m_Skin: []
-  m_VertexData:
-    m_CurrentChannels: 1
-    m_VertexCount: 16
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 192
-    _typelessdata: ddbdf0bcf07a46bd1b0a233c35ceb13b721a573d0683b5bc35ceb13b721a573d0634d3bc218d563d8b163abd3c12d73b845314bd7f04d0bcd812e2bc3b6aedbc315ab2bc7cf0f83ccf8b293d5ab729bdbad09ebc0bc41b3d7f04d0bc0405ea3c3b1d65bdc510d7bc4dea9d3b9234a3bc3321ed3cacaedf3b536b14bc925a393dd8c3ffbc189c0ebd71c840bdc159a0bc2786393deb44c1bc3455c4bcafbab33cbd35033d9e6bdab9448a853cbc1641bd0454cc3c178e573d4c6eafbcc58cff3b
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -0.0016551688, y: 0.0020291843, z: -0.00041660294}
-    m_Extent: {x: 0.05428091, y: 0.05048627, z: 0.030804712}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshOptimized: 0
+ByVendor": "廠商已取消",
+  "digitalIdTicketsStatusCompleted": "已完成",
+  "digitalIdTicketsStatusNone": "無",
+  "digitalIdTicketsStatusPending": "待處理",
+  "digitalIdTicketsStatusUnknown": "未知",
+  "digitalIdTicketsTurnOn": "將它開啟",
+  "digitalIdTicketsVisitExpiredTickets": "前往 $1 逾期的票證",
+  "digitalIdTicketsVisitExpiredTicketsSingular": "造訪 1 個過期的門票",
+  "digitalIdTicketsVisitOfficialWebsite": "造訪官方網站",
+  "digitalIdWalletFeedbackDislikeOther": "其他",
+  "digitalIdWalletFeedbackDislikePasswordsApprear": "我不想在電子錢包中顯示我的密碼",
+  "digitalIdWalletFeedbackDislikePasswordsFeatures": "我想要查看更多密碼功能",
+  "digitalIdWalletFeedbackDislikePasswordsInaccurate": "密碼資訊不正確",
+  "digitalIdWalletFeedbackDislikePersonalInfoApprear": "我不想在電子錢包中顯示我的地址資訊",
+  "digitalIdWalletFeedbackDislikePersonalInfoFeatrures": "我想要查看功能以更完善地管理我的地址",
+  "donateCashDisclaimer": "一旦捐贈，即表示您同意我們的 $1，並認可您的姓名、地址和捐贈金額將根據我們的 $2 與 Benevity 共用，並根據 Benevity 的 $3 和 $4 與 AOGF 共用。. $5。$6 非營利組織未受 Microsoft 背書。Microsoft 與 Benevity 協作，促進捐贈。您正在向 American Online Giving Foundation (AOGF) 的捐贈人建議基金捐款，並建議他們向 $7 提供相應資助。您同意讓 AOGF 對您的捐贈進行專屬法律控制。捐贈不可退還。",
+  "donateRewardsPointsDisclaimer": "非營利組織未經 Microsoft 背書。Microsoft 與 Benevity 協作，根據像您這樣的贊助者兌換的獎勵積分向非營利組織捐款。$1",
+  "donatedBack": "上一步",
+  "donatedNPODefautlDescription": "您贈送的禮品有助於產生影響力。以您自己的資金或賺取的 Rewards 點數寄送禮物。在捐贈之後，捐贈結果會傳送至您的電子郵件。$1 感謝您考慮到捐贈 $2。",
+  "donatedPerMonth": "/月",
+  "donatedPointsCount": "$1 點數",
+  "donationAddCardButton": "+ 新增新卡片",
+  "donationAmount": "金額",
+  "donationAvailablePoints": "可用的點數",
+  "donationBenevityPrivacy": "隱私權原則",
+  "donationCVVInputError": "無效的卡片驗證碼",
+  "donationCVVInputTitle": "安全代碼 (CVC/CVV)",
+  "donationCancel": "取消",
+  "donationCashPivot": "以現金",
+  "donationClose": "關閉",
+  "donationContinueAction": "繼續",
+  "donationDate": "日期",
+  "donationDonateAction": "捐贈",
+  "donationDoneButton": "完成",
+  "donationEmail": "您的收據將傳送至",
+  "donationEmailInvalid": "請再次檢查您的電子郵件地址",
+  "donationEmailPlaceholder": "電子郵件",
+  "donationEmptyHistoryDescription": "您的捐贈可以協助發揮更大的影響力",
+  "donationEmptyHistoryExploreNPO": "探索其他非營利組織",
+  "donationEmptyHistoryTitle": "尚無捐贈記錄",
+  "donationExceedMaxAmount": "捐贈金額不能超過 $1",
+  "donationExploreMore": "深入探索",
+  "donationExploreSearchPlaceholder": "輸入組織的名稱",
+  "donationExploreTab": "探索",
+  "donationExploreTitle": "探索世界各地的組織",
+  "donationExportCardError": "很抱歉，這筆捐贈並未成立。請以其他卡片再試一次。",
+  "donationFailedDonation": "捐贈失敗",
+  "donationFrequencyMonthly": "每月捐贈",
+  "donationFrequencyOneTime": "單次捐贈",
+  "donationGenericTransactionError": "很抱歉，這筆捐贈並未成立，因為我們處理您的付款時遇到了技術問題。請稍後再試。",
+  "donationGenericTransactionErrorWithReferenceId": "很抱歉，這筆捐贈並未成立，因為我們處理您的付款時遇到了技術問題。請稍後再試一

@@ -1,146 +1,102 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b71ad40e238046238f9b0c6f33c3791, type: 3}
-  m_Name: SM_Generic_Ground_Tile_01_Convex
-  m_EditorClassIdentifier: 
-  ConvexMeshes:
-  - {fileID: 43758277255361450}
-  HashOfSourceMeshes: d37cbaad0e1fd99b3996974600000000
---- !u!43 &43758277255361450
-Mesh:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Generated convex submesh 1
-  serializedVersion: 8
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 36
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 8
-    localAABB:
-      m_Center: {x: -2.5, y: 0, z: 2.5}
-      m_Extent: {x: 2.5396824, y: 0.039667007, z: 2.5396824}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 040003000700010002000300020001000400010003000400000002000500040000000500020004000500020000000600030002000600000003000600030000000700000004000700
-  m_Skin: []
-  m_VertexData:
-    m_CurrentChannels: 1
-    m_VertexCount: 8
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 96
-    _typelessdata: 008a223ddf79223d1445a1401445a1c0df7922bd008a22bd1445a1c0df79223d008a22bd008a223ddf7922bd008a22bd1445a1c0df7922bd1445a1401445a1c0df79223d1445a140008a223ddf79223d008a22bd008a223ddf7922bd1445a140
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -2.5, y: 0, z: 2.5}
-    m_Extent: {x: 2.5396824, y: 0.039667007, z: 2.5396824}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshOptimized: 0
+leTypes": [
+        "SPDX"
+      ]
+    },
+    {
+      "fileName": "./../crypto-hub/_manifest/spdx_2.2/manifest.spdx.json",
+      "SPDXID": "SPDXRef-File--..-crypto-hub--manifest-spdx-2.2-manifest.spdx.json-6CEB12390B8F8D8A5AFBEBA3AD8E50127DF3721F",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cf0ede6929e9820e0a4840c27583da2d63b84f3775a6990aa112b7b2b1848d58"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6ceb12390b8f8d8a5afbeba3ad8e50127df3721f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileTypes": [
+        "SPDX"
+      ]
+    },
+    {
+      "fileName": "./../bundle-crypto-hub/_manifest/spdx_2.2/manifest.spdx.json",
+      "SPDXID": "SPDXRef-File--..-bundle-crypto-hub--manifest-spdx-2.2-manifest.spdx.json-8C6A121CC332E4D8BEF36F249D55F9B60667BE64",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "51c403bd1174555845af3e13b24064fc4370fa5892cd74e907f36d02c4777178"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8c6a121cc332e4d8bef36f249d55f9b60667be64"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileTypes": [
+        "SPDX"
+      ]
+    },
+    {
+      "fileName": "./../tokenized-card/_manifest/spdx_2.2/manifest.spdx.json",
+      "SPDXID": "SPDXRef-File--..-tokenized-card--manifest-spdx-2.2-manifest.spdx.json-0EA7ADD59BE58AD8346B486134C382B4A4211581",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a2140b5a9981bc86d8821ec17e7e0eefbc5e3d7bc8834a029e50a2cf256d3ec1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0ea7add59be58ad8346b486134c382b4a4211581"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileTypes": [
+        "SPDX"
+      ]
+    },
+    {
+      "fileName": "./../driver/_manifest/spdx_2.2/manifest.spdx.json",
+      "SPDXID": "SPDXRef-File--..-driver--manifest-spdx-2.2-manifest.spdx.json-245547B88F39BDBA0658FC6B1CECCDB8DD995A11",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "50dac1b224e4fc53748e6ba0af9b67b8feeea488017d9febe4712629da71f0c3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "245547b88f39bdba0658fc6b1ceccdb8dd995a11"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileTypes": [
+        "SPDX"
+      ]
+    },
+    {
+      "fileName": "./Notification/_manifest/spdx_2.2/manifest.spdx.json",
+      "SPDXID": "SPDXRef-File--Notification--manifest-spdx-2.2-manifest.spdx.json-B7815E9D905583373E56CFED0A5CE05AC911917B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "eff7ef284c568efac97dec2ad01706108137439e7774c32688deed23569e4f5b"
+        },
+        {
+  
