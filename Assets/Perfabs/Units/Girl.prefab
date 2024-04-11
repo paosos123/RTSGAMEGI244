@@ -192,13 +192,15 @@ MonoBehaviour:
   toBuild: 0
   showGhost: 0
   buildingList:
-  - {fileID: 6701903150122428424, guid: 1e2288eba2537dd44b7bb148ad056c8d, type: 3}
   - {fileID: 6701903150122428424, guid: f885d1d1c6c36bd41a2261c28b607656, type: 3}
+  - {fileID: 6701903150122428424, guid: 1e2288eba2537dd44b7bb148ad056c8d, type: 3}
   - {fileID: 6701903150122428424, guid: 2319c9fd99c2fa14cb9590f58ae90cd5, type: 3}
+  - {fileID: 6701903150122428424, guid: 8518f6e6de6e2184b8f4cdd179c25432, type: 3}
   ghostBuildingList:
-  - {fileID: 6701903150122428424, guid: 9d0771c498dcc814498fe757605c8ab4, type: 3}
   - {fileID: 6701903150122428424, guid: ed7ab214fbb55f043b97d1b35e6a8cc2, type: 3}
+  - {fileID: 6701903150122428424, guid: 9d0771c498dcc814498fe757605c8ab4, type: 3}
   - {fileID: 6701903150122428424, guid: ff198a3aa6b78f448b8066a284b5dfe9, type: 3}
+  - {fileID: 6701903150122428424, guid: 58bbe69c828f10545ade6d6c93acfd2f, type: 3}
   newBuilding: {fileID: 0}
   ghostBuilding: {fileID: 0}
   inProgressBuilding: {fileID: 0}
