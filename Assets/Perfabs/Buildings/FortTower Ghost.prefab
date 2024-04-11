@@ -156,7 +156,7 @@ GameObject:
   - component: {fileID: 8824457838808404471}
   - component: {fileID: 4071823363804851258}
   m_Layer: 2
-  m_Name: FortTower 1
+  m_Name: FortTower Ghost
   m_TagString: GhostBuilding
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -2,19 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract  class AIBehaviour : MonoBehaviour
+public abstract class AIBehaviour : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
     [SerializeField] protected float weightMultiplier = 1;
     public float WeightMultiplier { get { return weightMultiplier; } }
 

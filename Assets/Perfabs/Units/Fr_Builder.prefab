@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 8805824928032019772}
   - component: {fileID: -5387148377249197363}
   m_Layer: 6
-  m_Name: Girl
+  m_Name: Fr_Builder
   m_TagString: Unit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
-  unitName: Girl
+  unitName: Fr-Builder
   unitPic: {fileID: 21300000, guid: 8c0e2c5fb8b57e848b01581258fa53fd, type: 3}
   curHP: 100
   maxHP: 100
@@ -192,13 +192,9 @@ MonoBehaviour:
   toBuild: 0
   showGhost: 0
   buildingList:
-  - {fileID: 6701903150122428424, guid: 1e2288eba2537dd44b7bb148ad056c8d, type: 3}
-  - {fileID: 6701903150122428424, guid: f885d1d1c6c36bd41a2261c28b607656, type: 3}
-  - {fileID: 6701903150122428424, guid: 2319c9fd99c2fa14cb9590f58ae90cd5, type: 3}
+  - {fileID: 6701903150122428424, guid: 213b32be00493c84cb53272bf78646be, type: 3}
   ghostBuildingList:
-  - {fileID: 6701903150122428424, guid: 9d0771c498dcc814498fe757605c8ab4, type: 3}
-  - {fileID: 6701903150122428424, guid: ed7ab214fbb55f043b97d1b35e6a8cc2, type: 3}
-  - {fileID: 6701903150122428424, guid: ff198a3aa6b78f448b8066a284b5dfe9, type: 3}
+  - {fileID: 6701903150122428424, guid: 3f565d5383b6ce347a5b5bf13f7c0ac1, type: 3}
   newBuilding: {fileID: 0}
   ghostBuilding: {fileID: 0}
   inProgressBuilding: {fileID: 0}
@@ -3327,7 +3323,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &29070930611917126
 Transform:
   m_ObjectHideFlags: 0
@@ -4710,7 +4706,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8938767535686193115
 Transform:
   m_ObjectHideFlags: 0
