@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -867666237572160642, guid: bf1d6b09973e5e049badbb192bb96d71, type: 3}
       propertyPath: visualRange
-      value: 30
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -867666237572160642, guid: bf1d6b09973e5e049badbb192bb96d71, type: 3}
       propertyPath: weaponRange
