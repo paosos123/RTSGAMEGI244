@@ -108,6 +108,7 @@ GameObject:
   - component: {fileID: 8824457838808404471}
   - component: {fileID: 6112992117025552526}
   - component: {fileID: 4787601382933493180}
+  - component: {fileID: -6072145383617367581}
   m_Layer: 7
   m_Name: Fr_Barrack
   m_TagString: Building
@@ -234,6 +235,18 @@ MonoBehaviour:
   isHousing: 0
   isBarrack: 1
   intoTheGround: 5
+--- !u!114 &-6072145383617367581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6701903150122428424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6620e59f257d6704cb0e530fba315562, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4208295279807967428
 PrefabInstance:
   m_ObjectHideFlags: 0

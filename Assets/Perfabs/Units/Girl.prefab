@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 6541268468673853192}
   - component: {fileID: 8805824928032019772}
   - component: {fileID: -5387148377249197363}
+  - component: {fileID: -4948389829200265156}
   m_Layer: 6
   m_Name: Girl
   m_TagString: Unit
@@ -232,6 +233,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5bebf1ad20bc5474c9bd4f1e6c359008, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-4948389829200265156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6620e59f257d6704cb0e530fba315562, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &13217585137867991
