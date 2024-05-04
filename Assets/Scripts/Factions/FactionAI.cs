@@ -18,7 +18,7 @@ public class FactionAI : MonoBehaviour
 
     [SerializeField] private Unit specificBuilder; //a builder for fixing any unfinished/broken building
 
-
+    
     private void Check()
     {
         if (faction.AliveBuildings.Count == 0) // if all buildings are destroyed, return
@@ -32,6 +32,7 @@ public class FactionAI : MonoBehaviour
                 // if we can recruit a new worker/builder, do so
                 if (faction.CheckUnitCost(0))
                     curHQ.ToCreateUnit(0); //HQ recruits a primary worker/builder
+                
             }
         }
 

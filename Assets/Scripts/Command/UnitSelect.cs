@@ -53,17 +53,18 @@ public class UnitSelect : MonoBehaviour
             //if click UI dont Clear
             if(EventSystem.current.IsPointerOverGameObject())
                 return;
-            
             ClearEverything();
         }
 
         if (Input.GetMouseButton(0))
         {
+           
             UpdateSelectionBox(Input.mousePosition);
         }
         // mouse up
         if (Input.GetMouseButtonUp(0))
         {
+            
             ReleaseSelectionBox(Input.mousePosition);
             if(IsPointerOverUIObject())
                 return;
@@ -81,7 +82,7 @@ public class UnitSelect : MonoBehaviour
     private void SelectUnit(RaycastHit hit)
     {
         Unit unit = hit.collider.GetComponent<Unit>();
-
+        
       
 
         Debug.Log("Selected Unit");

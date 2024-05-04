@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+   
     [SerializeField] private Faction myFaction;
     public Faction MyFaction { get { return myFaction; } }
 
